@@ -3,15 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { UserModule } from './user/user.module';
+import { AdminModule } from './admin/admin.module';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminModule,
+    UserModule
   ],
+
   providers: [],
   bootstrap: [AppComponent]
 })

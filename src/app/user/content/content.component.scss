@@ -1,0 +1,25 @@
+@import "~src/assets/scss/library.scss";
+
+.header{
+    width:100%;
+    height:8vh;
+    border-bottom:1px solid $red;
+    .user{
+        width:40%;
+        @include flex();
+        float:left;
+    }
+    .admin{
+        width:30%;
+        @include flex();
+        float:right;
+    }
+}
+.active{
+    color:$red;
+}
+p{
+    border:0;
+    outline:0;
+    cursor:pointer;
+}

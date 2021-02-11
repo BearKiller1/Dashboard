@@ -1,0 +1,13 @@
+@import "~src/assets/scss/library.scss";
+
+.blog{
+    width:30%;
+    height:50vh;
+    float:left;
+    margin-left:10%;
+    cursor:pointer;
+    img{
+        width:100%;
+        height:35vh;
+    }
+}

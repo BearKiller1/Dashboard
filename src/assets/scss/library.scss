@@ -1,0 +1,7 @@
+@mixin flex(){
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+$red: #dd3434;
+$black: rgb(41, 38, 38);
