@@ -8,12 +8,16 @@ import { DahsboardComponent } from './dahsboard/dahsboard.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
 
+
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [LoginComponent, RegisterComponent, DahsboardComponent],
   imports: [
     CommonModule,
     AdminRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ]
 })
 export class AdminModule { }

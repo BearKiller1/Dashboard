@@ -9,12 +9,14 @@ import { AboutComponent } from './about/about.component';
 import { DetailComponent } from './detail/detail.component';
 import { ContentComponent } from './content/content.component';
 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [BlogComponent, ShopComponent, NewsComponent, AboutComponent, DetailComponent, ContentComponent],
   imports: [
     CommonModule,
-    UserRoutingModule
+    UserRoutingModule,
+    HttpClientModule
   ],
   exports:[ContentComponent]
 })

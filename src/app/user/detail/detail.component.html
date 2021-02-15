@@ -4,7 +4,10 @@
 </div>
 
 <div>Comments</div>
-
 <div>
-Cooment section here
+    <input type="text" placeholder="Tyype commeeny" (keyup)="comment($event)">
+    <button (click)="addComent()">Add Coment</button>
+</div>
+<div *ngFor="let item of comments">
+    {{item.message}}
 </div>
